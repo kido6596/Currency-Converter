@@ -34,7 +34,6 @@ body{
 
 form :where(input, select, button){
     width: 100%;
-    
     outline: none;
     border: none;
 }
