@@ -1,6 +1,7 @@
 const dropList = document.querySelectorAll(".drop-list select"),
 fromCurrency = document.querySelector(".from select"),
 toCurrency = document.querySelector(".to select"),
+apiKey =  'https://v6.exchangerate-api.com/v6/241dbb33bd253cf67002c0eb/latest/USD';
 getButton = document.querySelector("form button");
 
 for (let i = 0; i < dropList.length; i++) {
